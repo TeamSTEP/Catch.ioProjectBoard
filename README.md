@@ -1,8 +1,13 @@
-# Introduction
+# Project Catch.io
 
-This is the project manual for **Catch.io**.
+## Introduction
 
-Every information that is required for developing with the Project Catch.io team will be documented here. Such information includes:
+This is the project manual for **Catch.io** and a repository for tracking issues and tasks related to the development of Catch.io.
+The actual source code for the project will be managed in a separate private repository, while the projects are stored in here.
+If you are part of Team STEP and Catch.io development, team feel free to add new tasks or comment on existing ones.
+
+Every information that is required for developing with the Project Catch.io team will be documented here.
+Such information includes:
 
 - Project folder structure
 - Coding styles and guidelines
