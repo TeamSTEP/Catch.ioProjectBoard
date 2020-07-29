@@ -1,0 +1,3 @@
+[submodule "OrganizationManuals"]
+	path = OrganizationManuals
+	url = https://github.com/TeamSTEP/team-guidelines
