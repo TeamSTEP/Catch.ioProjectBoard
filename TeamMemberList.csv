@@ -1,10 +1,10 @@
-﻿Name,Role,Activity Level,Joined in
-Alejandro Melian,Visual Assets,???,2020-07-29
-Angelo,Developer,Mid,2020-06-15
-David Brocek,Visual Assets,Low,2020-07-10
-Hoon Kim,Developer/Manager,High,2020-03-31
-Jae Jin Choi,Audio Assets,Low-Mid,2020-03-31
-Jennifer,Visual Assets,High,2020-07-09
-Joris,Developer,Low,2020-06-11
-Martijn Jongejan,Visual Assets,Low-Mid,2020-06-11
-Sungsik Bae,Developer,High,2020-03-31
+﻿Name,Role,Activity Level,Joined in,Timezone
+Alejandro Melian,Visual Assets,???,7/29/2020,GMT-5
+Angelo,Developer,Mid,6/15/2020,GMT+2
+David Brocek,Visual Assets,Low,7/10/2020,GMT+2
+Hoon Kim,Developer/Manager,High,3/31/2020,GMT+9
+Jae Jin Choi,Audio Assets,Low-Mid,3/31/2020,GMT+9
+Jennifer,Visual Assets,High,7/9/2020,GMT-7
+Joris van Eijden,Developer,Low,6/11/2020,GMT+2
+Martijn Jongejan,Visual Assets,Low-Mid,6/11/2020,GMT+2
+Sungsik Bae,Developer,High,3/31/2020,GMT+9
