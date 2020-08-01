@@ -4,7 +4,7 @@
 
 This is the project manual for **Catch.io** and a repository for tracking issues and tasks related to the development of Catch.io.
 The actual source code for the project will be managed in a separate private repository, while the project progress and other instructions are stored in here.
-If you are part of Team STEP and Catch.io development, team feel free to add new tasks or comment on existing ones.
+If you are part of development team, feel free to add new tasks or comment on existing ones.
 
 Every information that is required for developing with the Project Catch.io team will be documented here.
 Such information includes:
@@ -22,7 +22,9 @@ and more...
 You can think of this as a general guidelines for how to unify the development process so it is easier for others to join in. So project team members should document their work and tell everyone how you want others to handle your work. Project docs are meant for internal use but you shouldn't assume that others might already know what is what. Think of the docs as a way to express your creative works.
 Please keep in mind that you are not expected to read all the docs, but you are expected to understand the parts that is related to your task.
 
-Regarding the development flow, please refer to this doc: <https://github.com/hoonsubin/project-guidelines/blob/master/GithubGuide.md.>
+Regarding the development flow, please refer to this doc: [Github Guide](OrganizationManuals/GithubGuide.md)
+
+If you are an artist, this document may help you: [Art Asset Structure](ArtAssetStructure.md)
 
 For the design documents of Project Catch.io, please refer to this foc: <https://docs.google.com/document/d/1N4EkQDDCehgophNas1bUkacxGfCYO78z-fND64eFN4Q/>
 
