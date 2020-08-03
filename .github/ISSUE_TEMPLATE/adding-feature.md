@@ -23,8 +23,10 @@ assignees: hoonsubin
 
 ## Estimated Implementation Time
 
-{how long this will take to finish all the subtasks}
+- Optimistic - {how long this will take to finish all the subtasks at the very least}
+- Normal - {how long this will take to finish all the subtasks on average work time}
+- Pessimistic - {how long this will take to finish all the subtasks at most}
 
 ## Work Start Date
 
-{when the implementation will start}
+{when will the implementation will start}
