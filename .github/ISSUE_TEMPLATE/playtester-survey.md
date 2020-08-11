@@ -1,3 +1,12 @@
+---
+name: Adding Feature
+about: Adding a new feature to the current build of the game
+title: ''
+labels: enhancement
+assignees: hoonsubin
+
+---
+
 ## Played build
 
 {The game version that the tester has played}
