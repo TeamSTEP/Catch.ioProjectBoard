@@ -1,6 +1,6 @@
 ---
-name: Adding Feature
-about: Adding a new feature to the current build of the game
+name: Playtester Survey
+about: Surveys for playtesters to fill out after a testing session
 title: ''
 labels: enhancement
 assignees: hoonsubin
