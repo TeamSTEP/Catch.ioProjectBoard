@@ -53,3 +53,12 @@ Theses are some of the examples:
 - `Characters/Shade/Throwing/Throwing SW.png`
 - `Throwables/Torch/Torch1.png`
 - `Throwables/Frog/Red Frog/Back.png`
+
+## Asset Color Palette
+
+Both characters and props must follow the following color palette to keep a consistent feeling for the visual assets.
+
+![Color Palette](images/ColorPallette.png)
+
+A single component of an asset (such as metal, gold, cloth, etc.) should be within 2 variations of light to dark palettes/color.
+Feel free to add more but the main idea is that for artists to make an object e.g a wooden barrel it should use the same wood colors as the trees in the environment.
