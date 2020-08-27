@@ -26,7 +26,7 @@ Regarding the development flow, please refer to this doc: [Github Guide](Organiz
 
 If you are an artist, this document may help you: [Art Asset Structure](ArtAssetStructure.md)
 
-For the design documents of Project Catch.io, please refer to this foc: <https://docs.google.com/document/d/1N4EkQDDCehgophNas1bUkacxGfCYO78z-fND64eFN4Q/>
+For the design documents of Project Catch.io, please refer to this doc: <https://team-step.gitbook.io/catch-io-design-doc/>
 
 This README doc acts as an introduction to the entire docs so please feel free to add or change the contents as you write more docs.
 
