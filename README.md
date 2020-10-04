@@ -41,6 +41,8 @@ To increase the efficiency of communications between members, it is good to use 
 - WIP: Working In Progress
 - impl: short for implement or implementation
 - LGTM: Looks Good to Me (used when a PR does not have any issues and is good to merge)
+- Scripts: Refers to the `.cs` code that contains game play logic, but are not directly used as part of a Unity game object
+- Components: This is also a `.cs` code, but it is meant to be used as a component for Unity game objects
 
 ## How to Write Documents
 
