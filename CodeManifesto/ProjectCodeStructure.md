@@ -1,4 +1,4 @@
-# Project Structure
+# Project Code Structure
 
 This chapter will discuss about the file structure of this project and how the project should be organized.
 Because of how game development works, this chapter will change depending on what type of assets we add to the game.
