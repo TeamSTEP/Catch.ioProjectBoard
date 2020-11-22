@@ -1,0 +1,11 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.bg-rocky {
+    background-image: url(../img/rocky-wall.png);
+}
+
+.gradient {
+    background: linear-gradient(90deg, #553694 0%, #1c0f67 100%);
+}
