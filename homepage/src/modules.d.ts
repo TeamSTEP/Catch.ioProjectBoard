@@ -5,3 +5,12 @@ declare module 'vue-scroll-snap' {
 
     export default VueScrollSnap;
 }
+
+declare module 'vue-agile' {
+    import { DefineComponent } from 'vue';
+    export const VueAgile: DefineComponent<{}, {}, any>;
+    const Install: {
+        install: (Vue: Vue) => void;
+    };
+    export default Install;
+}
