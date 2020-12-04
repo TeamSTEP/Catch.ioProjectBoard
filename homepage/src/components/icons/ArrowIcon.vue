@@ -1,54 +1,6 @@
 <template>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 309.43 123.96">
         <title>arrow</title>
-        <defs>
-            <style>
-                .cls-1,
-                .cls-7 {
-                    fill: #fff;
-                }
-
-                .cls-1,
-                .cls-6 {
-                    opacity: 0.5;
-                }
-
-                .cls-2,
-                .cls-4,
-                .cls-8,
-                .cls-9 {
-                    fill: none;
-                    stroke: #fff;
-                }
-
-                .cls-2,
-                .cls-4,
-                .cls-9 {
-                    stroke-miterlimit: 10;
-                }
-
-                .cls-2,
-                .cls-8 {
-                    stroke-width: 2px;
-                }
-
-                .cls-3 {
-                    opacity: 0.75;
-                }
-
-                .cls-5 {
-                    opacity: 0.25;
-                }
-
-                .cls-8 {
-                    stroke-linejoin: round;
-                }
-
-                .cls-9 {
-                    stroke-width: 3px;
-                }
-            </style>
-        </defs>
         <g id="Layer_2" data-name="Layer 2">
             <g id="Layer_6" data-name="Layer 6">
                 <path
@@ -142,3 +94,50 @@ import { Options, Vue } from 'vue-class-component';
 @Options({})
 export default class ArrowIcon extends Vue {}
 </script>
+
+<style>
+.cls-1,
+.cls-7 {
+    fill: #fff;
+}
+
+.cls-1,
+.cls-6 {
+    opacity: 0.5;
+}
+
+.cls-2,
+.cls-4,
+.cls-8,
+.cls-9 {
+    fill: none;
+    stroke: #fff;
+}
+
+.cls-2,
+.cls-4,
+.cls-9 {
+    stroke-miterlimit: 10;
+}
+
+.cls-2,
+.cls-8 {
+    stroke-width: 2px;
+}
+
+.cls-3 {
+    opacity: 0.75;
+}
+
+.cls-5 {
+    opacity: 0.25;
+}
+
+.cls-8 {
+    stroke-linejoin: round;
+}
+
+.cls-9 {
+    stroke-width: 3px;
+}
+</style>

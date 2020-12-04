@@ -56,6 +56,7 @@ export default class Home extends Vue {}
 		top: 0
 		transition-duration: .3s
 		width: 80px
+        z-index: 10;
 
 		&:hover
 			background-color: rgba(#000, .5)

@@ -1,80 +1,5 @@
 <template>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138.67 122.74">
-        <defs>
-            <style>
-                .cls-1,
-                .cls-10,
-                .cls-11,
-                .cls-8,
-                .cls-9 {
-                    fill: #fff;
-                }
-
-                .cls-1,
-                .cls-10,
-                .cls-11,
-                .cls-2,
-                .cls-3,
-                .cls-4,
-                .cls-5,
-                .cls-6,
-                .cls-7,
-                .cls-9 {
-                    stroke: #fff;
-                }
-
-                .cls-1,
-                .cls-10,
-                .cls-2 {
-                    stroke-linejoin: round;
-                }
-
-                .cls-1 {
-                    opacity: 0.25;
-                }
-
-                .cls-2,
-                .cls-4,
-                .cls-5,
-                .cls-7 {
-                    fill: none;
-                }
-
-                .cls-2,
-                .cls-5,
-                .cls-6,
-                .cls-7 {
-                    stroke-width: 2px;
-                }
-
-                .cls-3,
-                .cls-6 {
-                    fill: #231f20;
-                }
-
-                .cls-11,
-                .cls-3,
-                .cls-4,
-                .cls-5,
-                .cls-6,
-                .cls-7,
-                .cls-9 {
-                    stroke-miterlimit: 10;
-                }
-
-                .cls-7 {
-                    stroke-linecap: round;
-                }
-
-                .cls-9 {
-                    opacity: 0.35;
-                }
-
-                .cls-10 {
-                    opacity: 0.5;
-                }
-            </style>
-        </defs>
         <g id="Layer_2" data-name="Layer 2">
             <g id="outline_copy" data-name="outline copy">
                 <path class="cls-1" d="M111.6,103.56,90,97.5a41.27,41.27,0,0,0,16.92-12.22Z" />
@@ -214,3 +139,77 @@ import { Options, Vue } from 'vue-class-component';
 @Options({})
 export default class RuneIcon extends Vue {}
 </script>
+
+<style>
+.cls-1,
+.cls-10,
+.cls-11,
+.cls-8,
+.cls-9 {
+    fill: #fff;
+}
+
+.cls-1,
+.cls-10,
+.cls-11,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-9 {
+    stroke: #fff;
+}
+
+.cls-1,
+.cls-10,
+.cls-2 {
+    stroke-linejoin: round;
+}
+
+.cls-1 {
+    opacity: 0.25;
+}
+
+.cls-2,
+.cls-4,
+.cls-5,
+.cls-7 {
+    fill: none;
+}
+
+.cls-2,
+.cls-5,
+.cls-6,
+.cls-7 {
+    stroke-width: 2px;
+}
+
+.cls-3,
+.cls-6 {
+    fill: #231f20;
+}
+
+.cls-11,
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-9 {
+    stroke-miterlimit: 10;
+}
+
+.cls-7 {
+    stroke-linecap: round;
+}
+
+.cls-9 {
+    opacity: 0.35;
+}
+
+.cls-10 {
+    opacity: 0.5;
+}
+</style>
