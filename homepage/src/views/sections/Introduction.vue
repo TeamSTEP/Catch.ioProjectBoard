@@ -1,7 +1,7 @@
 <template>
     <PageOutline>
         <div class="relative w-screen h-screen">
-            <video autoplay muted loop class="bg-cover bg-center" id="background">
+            <video autoplay muted loop id="background">
                 <source :src="require('@/assets/video/background.mp4')" type="video/mp4" />
                 Your browser does not support HTML5 video.
             </video>
@@ -20,6 +20,12 @@
                         <h1 class="my-4 text-5xl font-bold leading-tight text-white">
                             The Stealthy Battle Royale
                         </h1>
+                        <!--text divider-->
+                        <div class="w-full mb-4">
+                            <div
+                                class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
+                            ></div>
+                        </div>
                         <p class="leading-normal text-2xl mb-8 text-white">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
                             ipsum eu nunc commodo posuere et sit amet ligula.
@@ -54,8 +60,9 @@ export default class Introduction extends Vue {}
 #background {
     position: absolute;
     display: block;
+    object-fit: cover;
     top: 0;
-    left: 0;
+    bottom: 0;
     min-width: 100%;
     min-height: 100%;
 }
