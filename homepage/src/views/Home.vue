@@ -1,11 +1,5 @@
 <template>
-    <VueAgile
-        :pause-on-hover="true"
-        pause-on-dots-hover
-        autoplay
-        :autoplay-speed="10 * 1000"
-        :speed="2000"
-    >
+    <VueAgile :pause-on-hover="true" pause-on-dots-hover :autoplay-speed="10 * 1000" :speed="2000">
         <div class="slide">
             <Introduction />
         </div>

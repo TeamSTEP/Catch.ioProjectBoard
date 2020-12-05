@@ -4,8 +4,8 @@
         <RuneIcon class="top-right" />
         <RuneIcon class="bottom-left" />
         <RuneIcon class="bottom-right" />
-        <slot></slot>
     </div>
+    <slot></slot>
 </template>
 
 <script lang="ts">
@@ -24,8 +24,8 @@ export default class PageOutline extends Vue {}
 .corner {
     position: absolute;
     display: block;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     z-index: 2;
 
     .top-left,
