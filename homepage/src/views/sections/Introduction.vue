@@ -26,10 +26,15 @@
                                 class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"
                             ></div>
                         </div>
-                        <p class="leading-normal text-2xl mb-8 text-white">
+                        <p class="leading-normal text-2xl mb-8 text-white text-center">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
                             ipsum eu nunc commodo posuere et sit amet ligula.
                         </p>
+                        <button
+                            class="mx-auto hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+                        >
+                            Learn More
+                        </button>
                     </div>
                     <!--Right Col-->
                     <div class="w-full md:w-3/5 py-6 text-center">
