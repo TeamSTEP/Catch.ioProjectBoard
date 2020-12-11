@@ -44,10 +44,10 @@ export default class PageOutline extends Vue {}
         position: absolute;
         height: 5rem;
         width: auto;
-        transform: translate(50%, 0%);
-        -webkit-transform: translate(50%, 0%);
+        transform: translate(-50%, 0%);
+        -webkit-transform: translate(-50%, 0%);
         top: 0%;
-        left: 50%;
+        left: 50vw;
     }
 
     .top-left {
