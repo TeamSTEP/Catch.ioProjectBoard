@@ -3,6 +3,7 @@
 @import 'tailwindcss/utilities';
 
 @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 .bg-rocky {
     background-image: url(../img/rocky-wall.png);
@@ -10,4 +11,10 @@
 
 .gradient {
     background: linear-gradient(90deg, #553694 0%, #1c0f67 100%);
+}
+
+#app {
+    min-height: 100vh;
+    max-height: 100vh;
+    width: 100%;
 }

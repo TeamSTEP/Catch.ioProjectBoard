@@ -1,20 +1,20 @@
 <template>
-    <VueAgile :pause-on-hover="true" pause-on-dots-hover :autoplay-speed="10 * 1000" :speed="2000">
+    <vue-agile :speed="2000" class="w-screen h-screen">
         <div class="slide">
-            <Introduction />
+            <introduction />
         </div>
         <div class="slide">
-            <GamePlay />
-        </div>
-
-        <div class="slide">
-            <DevelopmentInfo />
+            <game-play />
         </div>
 
         <div class="slide">
-            <SocialNetwork />
+            <development-info />
         </div>
-    </VueAgile>
+
+        <div class="slide">
+            <social-network />
+        </div>
+    </vue-agile>
 </template>
 
 <script lang="ts">
@@ -23,6 +23,7 @@ import Introduction from '@/views/sections/Introduction.vue';
 import GamePlay from '@/views/sections/GamePlay.vue';
 import DevelopmentInfo from '@/views/sections/DevelopmentInfo.vue';
 import SocialNetwork from '@/views/sections/SocialNetwork.vue';
+import Navbar from '@/components/Navbar.vue';
 import { VueAgile } from 'vue-agile';
 
 @Options({
@@ -32,6 +33,7 @@ import { VueAgile } from 'vue-agile';
         GamePlay,
         DevelopmentInfo,
         SocialNetwork,
+        Navbar,
     },
 })
 export default class Home extends Vue {}
@@ -39,6 +41,11 @@ export default class Home extends Vue {}
 
 <style lang="sass">
 .agile
+	&__list
+		position: absolute
+		height: 100%
+	&__slide
+		height: 100%
 	&__nav-button
 		background: transparent
 		border: none
@@ -88,11 +95,4 @@ export default class Home extends Vue {}
 		&:hover
 			button
 				background-color: #888
-
-// Slides styles
-.slide
-	display: block
-	height: 100vh
-	object-fit: cover
-	width: 100%
 </style>

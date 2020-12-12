@@ -98,46 +98,49 @@ export default class ArrowIcon extends Vue {}
 <style>
 .cls-1,
 .cls-7 {
-    fill: #fff;
+    fill: #231f20;
 }
 
 .cls-1,
+.cls-3,
+.cls-5,
 .cls-6 {
     opacity: 0.5;
 }
 
+.cls-11,
+.cls-12,
 .cls-2,
-.cls-4,
-.cls-8,
-.cls-9 {
+.cls-3,
+.cls-4 {
     fill: none;
-    stroke: #fff;
 }
 
-.cls-2,
-.cls-4,
-.cls-9 {
+.cls-11,
+.cls-12,
+.cls-4 {
+    stroke: #231f20;
     stroke-miterlimit: 10;
 }
 
-.cls-2,
-.cls-8 {
+.cls-4 {
     stroke-width: 2px;
 }
 
-.cls-3 {
-    opacity: 0.75;
-}
-
+.cls-10,
 .cls-5 {
-    opacity: 0.25;
+    fill: #d1d3d4;
 }
 
 .cls-8 {
-    stroke-linejoin: round;
+    fill: #e6e7e8;
 }
 
 .cls-9 {
+    fill: #414042;
+}
+
+.cls-12 {
     stroke-width: 3px;
 }
 </style>

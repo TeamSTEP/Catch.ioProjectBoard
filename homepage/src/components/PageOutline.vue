@@ -1,55 +1,40 @@
 <template>
-    <div class="container">
+    <div class="relative w-full h-full">
         <slot></slot>
-        <div class="edges">
-            <RuneIcon class="top-left" />
-            <CenterArrowIcon class="top-mid" />
-            <RuneIcon class="top-right" />
-            <RuneIcon class="bottom-left" />
-            <RuneIcon class="bottom-right" />
+        <div id="edges" class="w-full h-full">
+            <rune-circle-icon class="top-left" />
+            <rune-circle-icon class="top-right" />
+            <rune-circle-icon class="bottom-left" />
+            <rune-circle-icon class="bottom-right" />
         </div>
     </div>
 </template>
 
 <script lang="ts">
 import { Vue, Options } from 'vue-class-component';
-import RuneIcon from '@/components/icons/RuneIcon.vue';
-import CenterArrowIcon from '@/components/icons/CenterArrowIcon.vue';
+import RuneCircleIcon from '@/components/icons/RuneCircleIcon.vue';
 
 @Options({
     components: {
-        RuneIcon,
-        CenterArrowIcon,
+        RuneCircleIcon,
     },
 })
 export default class PageOutline extends Vue {}
 </script>
 
 <style lang="scss">
-.container {
-    position: relative;
-}
-
-.edges {
+#edges {
+    // corner icon size
     .top-left,
     .top-right,
     .bottom-left,
     .bottom-right {
         position: absolute;
-        width: 5rem;
+        width: 4rem;
         height: auto;
     }
 
-    .top-mid {
-        position: absolute;
-        height: 5rem;
-        width: auto;
-        transform: translate(-50%, 0%);
-        -webkit-transform: translate(-50%, 0%);
-        top: 0%;
-        left: 50vw;
-    }
-
+    // icon position is relative to the parent div
     .top-left {
         transform: translate(0%, 0%);
         -webkit-transform: translate(0%, 0%);
@@ -60,19 +45,19 @@ export default class PageOutline extends Vue {}
         transform: translate(-100%, 0%);
         -webkit-transform: translate(-100%, 0%);
         top: 0%;
-        left: 100vw;
+        left: 100%;
     }
     .bottom-left {
         transform: translate(0%, -100%);
         -webkit-transform: translate(0%, -100%);
-        top: 100vh;
+        top: 100%;
         left: 0%;
     }
     .bottom-right {
         transform: translate(-100%, -100%);
         -webkit-transform: translate(-100%, -100%);
-        top: 100vh;
-        left: 100vw;
+        top: 100%;
+        left: 100%;
     }
 }
 </style>
