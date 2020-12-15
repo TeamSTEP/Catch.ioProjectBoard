@@ -27,7 +27,7 @@
                 <div
                     class="flex flex-col w-full md:w-1/2 py-6 justify-center items-center text-center flex-1"
                 >
-                    <h1 class="my-4 text-5xl font-bold leading-tight text-white">
+                    <h1 class="my-4 text-8xl font-bold leading-tight text-white">
                         Witch One
                     </h1>
                     <!--text divider-->

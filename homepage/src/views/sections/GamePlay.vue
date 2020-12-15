@@ -2,7 +2,7 @@
     <section id="game-play-page" class="h-screen">
         <div class="bg-gray-800 w-full h-full">
             <page-outline>
-                <div class="max-w-5xl mx-auto">
+                <div class="max-w-5xl mx-auto h-full">
                     <h1 class="w-full text-5xl font-bold leading-tight text-center text-gray-200">
                         Gameplay
                     </h1>

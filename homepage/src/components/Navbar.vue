@@ -9,7 +9,7 @@
                 href="#"
             >
                 <img
-                    :src="require('@/assets/img/icon-1024.png')"
+                    :src="require('@/assets/img/icon-512.png')"
                     class="max-h-12 h-auto w-auto px-5 m-auto"
                     alt="logo"
                 />
