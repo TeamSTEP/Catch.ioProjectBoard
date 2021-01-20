@@ -89,10 +89,11 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component';
+import { defineComponent } from 'vue';
 
-@Options({})
-export default class ArrowIcon extends Vue {}
+export default defineComponent({
+    name: 'ArrowIcon',
+});
 </script>
 
 <style>

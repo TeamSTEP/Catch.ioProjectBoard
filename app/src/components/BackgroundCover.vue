@@ -10,8 +10,6 @@
 <script lang="ts">
 import { defineComponent, computed } from 'vue';
 
-type BackgroundMedia = 'video' | 'image';
-
 export default defineComponent({
     name: 'BackgroundCover',
     props: {

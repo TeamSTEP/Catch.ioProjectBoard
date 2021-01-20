@@ -82,9 +82,7 @@
                             <div
                                 class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow"
                             >
-                                <div class="p-8 text-3xl font-bold text-center border-b-4">
-                                    Pro
-                                </div>
+                                <div class="p-8 text-3xl font-bold text-center border-b-4">Pro</div>
                                 <ul class="w-full text-center text-sm">
                                     <li class="border-b py-4">Thing</li>
                                     <li class="border-b py-4">Thing</li>
@@ -117,13 +115,13 @@
 </template>
 
 <script lang="ts">
-import { Vue, Options } from 'vue-class-component';
+import { defineComponent } from 'vue';
 import PageOutline from '@/components/PageOutline.vue';
 
-@Options({
+export default defineComponent({
+    name: 'DevelopmentInfo',
     components: {
         PageOutline,
     },
-})
-export default class DevelopmentInfo extends Vue {}
+});
 </script>

@@ -30,9 +30,7 @@
 
                     <!--Right Col-->
                     <div class="w-full md:w-3/5 py-6 items-center text-center z-10">
-                        <h1 class="my-4 text-8xl font-bold leading-tight text-white">
-                            Witch One
-                        </h1>
+                        <h1 class="my-4 text-8xl font-bold leading-tight text-white">Witch One</h1>
                         <!--text divider-->
                         <div class="w-full mb-4">
                             <div
@@ -51,17 +49,16 @@
 </template>
 
 <script lang="ts">
-import { Vue, Options } from 'vue-class-component';
+import { defineComponent } from 'vue';
 import PageOutline from '@/components/PageOutline.vue';
 import BackgroundCover from '@/components/BackgroundCover.vue';
 
-@Options({
+export default defineComponent({
     components: {
         PageOutline,
         BackgroundCover,
     },
-})
-export default class Introduction extends Vue {}
+});
 </script>
 
 <style lang="scss">

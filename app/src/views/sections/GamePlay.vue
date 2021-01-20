@@ -479,13 +479,13 @@
 </template>
 
 <script lang="ts">
-import { Vue, Options } from 'vue-class-component';
 import PageOutline from '@/components/PageOutline.vue';
+import { defineComponent } from 'vue';
 
-@Options({
+export default defineComponent({
+    name: 'GamePlay',
     components: {
         PageOutline,
     },
-})
-export default class GamePlay extends Vue {}
+});
 </script>

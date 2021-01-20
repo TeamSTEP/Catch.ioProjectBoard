@@ -61,13 +61,13 @@
 </template>
 
 <script lang="ts">
-import { Vue, Options } from 'vue-class-component';
+import { defineComponent } from 'vue';
 import PageOutline from '@/components/PageOutline.vue';
 
-@Options({
+export default defineComponent({
+    name: 'SocialNetwork',
     components: {
         PageOutline,
     },
-})
-export default class SocialNetwork extends Vue {}
+});
 </script>

@@ -11,15 +11,15 @@
 </template>
 
 <script lang="ts">
-import { Vue, Options } from 'vue-class-component';
+import { defineComponent } from 'vue';
 import RuneCircleIcon from '@/components/icons/RuneCircleIcon.vue';
 
-@Options({
+export default defineComponent({
+    name: 'PageOutline',
     components: {
         RuneCircleIcon,
     },
-})
-export default class PageOutline extends Vue {}
+});
 </script>
 
 <style lang="scss">

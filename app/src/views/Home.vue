@@ -18,25 +18,23 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component';
+import { defineComponent } from 'vue';
 import Introduction from '@/views/sections/Introduction.vue';
 import GamePlay from '@/views/sections/GamePlay.vue';
 import DevelopmentInfo from '@/views/sections/DevelopmentInfo.vue';
 import SocialNetwork from '@/views/sections/SocialNetwork.vue';
-import Navbar from '@/components/Navbar.vue';
 import { VueAgile } from 'vue-agile';
 
-@Options({
+export default defineComponent({
+    name: 'Home',
     components: {
         Introduction,
         VueAgile,
         GamePlay,
         DevelopmentInfo,
         SocialNetwork,
-        Navbar,
     },
-})
-export default class Home extends Vue {}
+});
 </script>
 
 <style lang="sass">
