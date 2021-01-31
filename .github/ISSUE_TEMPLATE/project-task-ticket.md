@@ -2,7 +2,7 @@
 name: Project Task Ticket
 about: Adding a new feature to the current build of the game
 title: "[Task]"
-labels: add feature
+labels: not started
 assignees: hoonsubin
 
 ---
