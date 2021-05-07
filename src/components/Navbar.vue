@@ -2,7 +2,7 @@
     <div class="navbar-component launch">
         <ul class="navbar-top">
             <li id="nav-company">
-                <a href="http://www.camposanto.com/"><strong>Witch One</strong></a>
+                <a href="https://teamstep.io/"><strong>Witch One</strong></a>
             </li>
             <li id="nav-review">
                 <a href="https://quarterly.camposanto.com/"

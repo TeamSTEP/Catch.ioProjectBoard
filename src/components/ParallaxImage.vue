@@ -1,51 +1,105 @@
 <template>
-    <div id="parallax" class="keyart container">
-        <div
+    <div class="parallax-container">
+        <img
             v-for="(layer, index) in layers"
             :id="'keyart-' + index"
             :key="layer.imgSrc"
-            v-rellax="{ speed: layer.speed }"
-            class="keyart_layer parallax"
-        >
-            <img :alt="'layer-' + index" :src="layer.imgSrc" class="keyart_layer" />
-        </div>
+            v-rellax="{ speed: layer.speed, zindex: index }"
+            :alt="'layer-' + index"
+            :src="layer.imgSrc"
+            class="layer-image"
+            :style="layer.style"
+        />
     </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, reactive } from 'vue';
 
 interface ParallaxImageLayer {
     imgSrc: string;
     speed: number;
+    style?: object; // inline CSS style object
 }
 
-export default defineComponent({
-    props: {
-        layers: {
-            type: Array as () => ParallaxImageLayer[],
-            required: true,
+const keyartLayers: ParallaxImageLayer[] = [
+    {
+        imgSrc: 'src/assets/img/keyart/keyart-layer-1.png',
+        speed: 4,
+    },
+    {
+        imgSrc: 'src/assets/img/keyart/keyart-layer-2.png',
+        speed: 8,
+    },
+    {
+        imgSrc: 'src/assets/img/keyart/keyart-layer-3.png',
+        speed: 8,
+    },
+    {
+        imgSrc: 'src/assets/img/keyart/keyart-layer-4.png',
+        speed: 9,
+    },
+    {
+        imgSrc: 'src/assets/img/keyart/keyart-layer-5.png',
+        speed: -10,
+    },
+    {
+        imgSrc: 'src/assets/img/keyart/keyart-layer-6.png',
+        speed: 10,
+    },
+    {
+        imgSrc: 'src/assets/img/keyart/keyart-layer-7.png',
+        speed: 7,
+    },
+    {
+        imgSrc: 'src/assets/img/keyart/keyart-layer-8.png',
+        speed: 10,
+    },
+    {
+        imgSrc: 'src/assets/img/keyart/keyart-layer-9.png',
+        speed: 10,
+    },
+    {
+        imgSrc: 'src/assets/img/keyart/keyart-layer-10.png',
+        speed: 10,
+    },
+    {
+        imgSrc: 'src/assets/img/keyart/keyart-layer-11.png',
+        speed: 10,
+    },
+    {
+        imgSrc: 'src/assets/img/logo.png',
+        speed: 3,
+        style: {
+            top: '0px',
         },
+    },
+];
+
+export default defineComponent({
+    setup() {
+        const layers = reactive(keyartLayers);
+
+        return {
+            layers,
+        };
     },
 });
 </script>
 
 <style scoped>
-#parallax {
+.parallax-container {
     position: relative;
-}
-
-.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
-    width: 100%;
+    flex: 1;
 }
 
-.keyart_layer.parallax {
+img.layer-image {
     position: absolute;
-}
-
-img.keyart_layer {
     height: auto;
-    width: 100%;
+    max-width: 100%;
 }
 </style>
