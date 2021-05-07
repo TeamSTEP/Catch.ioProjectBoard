@@ -22,3 +22,12 @@ body {
     margin-top: 0;
     width: 100%;
 }
+
+.section.internallinks,
+.section.internallinks * {
+    vertical-align: baseline;
+}
+.gridwithicons.section.internallinks,
+.gridwithicons.section.internallinks * {
+    vertical-align: top;
+}
