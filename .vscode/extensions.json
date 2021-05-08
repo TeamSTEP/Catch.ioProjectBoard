@@ -3,9 +3,6 @@
         "octref.vetur",
         "esbenp.prettier-vscode",
         "dbaeumer.vscode-eslint",
-        "bradlc.vscode-tailwindcss",
-        "wscats.vue",
-        "sdras.vue-vscode-snippets",
-        "hollowtree.vue-snippets"
+        "bradlc.vscode-tailwindcss"
     ]
 }
