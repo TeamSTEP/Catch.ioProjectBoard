@@ -1,10 +1,7 @@
 import React from 'react';
 
-import Link from 'next/link';
-
 import { Background } from '../background/Background';
-import { Button } from '../button/Button';
-import { HeroOneButton } from '../hero/HeroOneButton';
+import { HeroParallaxArt } from '../hero/HeroParallaxArt';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
@@ -27,21 +24,14 @@ const Hero = () => (
     </Section>
 
     <Section yPadding="pt-20 pb-32">
-      <HeroOneButton
+      <HeroParallaxArt
         title={(
           <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developer</span>
+            {'The best landing page ever made\n'}
+            <span className="text-primary-500">Witch One</span>
           </>
                   )}
-        description="The easiest way to build React landing page in seconds."
-        button={(
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
-            <a>
-              <Button xl>Download Your Free Theme</Button>
-            </a>
-          </Link>
-                  )}
+        description="The Stealthy and Magical Battle-Royal"
       />
     </Section>
   </Background>
