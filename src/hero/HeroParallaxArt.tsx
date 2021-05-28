@@ -1,6 +1,6 @@
 import React, { ReactNode, useState, useMemo } from 'react';
 
-import { ParallaxBanner } from 'react-scroll-parallax';
+import { ParallaxBanner, BannerLayer } from 'react-scroll-parallax';
 
 type IHeroParallaxArtProps = {
   title: ReactNode;
@@ -15,11 +15,13 @@ const ParallaxKeyArt = (props: IParallaxKeyArtProps) => {
   const [layerCount] = useState(11);
 
   const paraLayers = useMemo(() => {
-    const layerNodes = Array.from({ length: layerCount }, (_v, k) => k + 1).map((i) => ({
-      image: `/assets/images/keyart/Layer${i}.png`,
-      amount: Math.random(),
-      expanded: false,
-    }));
+    const layerNodes = Array.from({ length: layerCount }, (_v, k) => k + 1).map(
+      (i) => ({
+        image: `/assets/images/keyart/Layer${i}.png`,
+        amount: Math.random(),
+        expanded: false,
+      } as BannerLayer),
+    );
 
     return layerNodes;
   }, [layerCount]);
