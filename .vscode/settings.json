@@ -1,15 +1,14 @@
 {
-    "editor.formatOnSave": true,
-    "[vue]": {
-        "editor.defaultFormatter": "octref.vetur"
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "jest.autoEnable": false,
+    "editor.formatOnSave": false,
+    "search.exclude": {
+        "package-lock.json": true
     },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    "editor.codeActionsOnSave": [
+        "source.addMissingImports",
+        "source.fixAll.format",
+        "source.fixAll.eslint"
+    ]
 }
