@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Config } from '../utils/Config';
+import { config } from '../config/siteData';
 
 const FooterCopyright = () => (
   <div className="footer-copyright">
@@ -8,7 +8,7 @@ const FooterCopyright = () => (
     {' '}
     {new Date().getFullYear()}
     {' '}
-    {Config.title}
+    {config.title}
   </div>
 );
 
