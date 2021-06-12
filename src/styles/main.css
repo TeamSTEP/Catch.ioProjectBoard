@@ -4,6 +4,12 @@
 
 @tailwind utilities;
 
+/* add fonts */
+/* pixel font family */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* handwriting font family */
+@import url('https://fonts.googleapis.com/css2?family=Bilbo&family=Charmonman&display=swap');
+
 body {
   background-color: rgb(83, 49, 148);
 }

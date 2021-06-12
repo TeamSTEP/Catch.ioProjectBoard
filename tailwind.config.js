@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
     purge: ['./src/**/*.{js,ts,jsx,tsx}'],
     darkMode: false,
@@ -15,6 +17,13 @@ module.exports = {
             '6xl': '4rem',
         },
         extend: {
+            fontFamily: {
+                sans: [...defaultTheme.fontFamily.sans],
+                serif: [...defaultTheme.fontFamily.serif],
+                mono: [...defaultTheme.fontFamily.mono],
+                pixel: ["'Press Start 2P'", 'cursive', 'sans'],
+                cursive: ['Bilbo', 'Charmonman', 'cursive', 'serif'],
+            },
             colors: {
                 primary: {
                     100: '#f4e1ff',
@@ -46,5 +55,5 @@ module.exports = {
         },
     },
     variants: {},
-    plugins: [],
+    plugins: [require('@markusantonwolf/tailwind-css-plugin-filters')],
 };

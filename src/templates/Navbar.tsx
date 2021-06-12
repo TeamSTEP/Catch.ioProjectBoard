@@ -5,7 +5,7 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Navbar = () => (
-  <div className="fixed z-10 w-screen bg-black bg-opacity-20 backdrop-filter backdrop-blur-lg">
+  <div className="fixed z-10 w-screen bg-black bg-opacity-10 bg-blur-5">
     <Section yPadding="py-3">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
