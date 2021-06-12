@@ -3,7 +3,7 @@ import React, { CSSProperties } from 'react';
 import { BannerLayer } from 'react-scroll-parallax';
 
 const layerStyle: CSSProperties = {
-  height: '100%',
+  minHeight: '100%',
   objectFit: 'cover',
 };
 
