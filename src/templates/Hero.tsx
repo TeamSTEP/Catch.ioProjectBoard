@@ -8,7 +8,7 @@ import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 
 const Hero = () => (
-  <div className="z-0 static font-pixel">
+  <div className="z-0 static">
     <ParallaxBanner layers={KeyArtLayerConfig} className="min-h-screen" />
     <Section yPadding="pt-20 pb-32">
       <HeroOneButton

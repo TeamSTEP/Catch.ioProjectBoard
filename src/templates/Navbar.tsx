@@ -21,21 +21,21 @@ const Navbar = () => (
         <li>
           <a
             target="_blank"
-            href="https://devdocs.teamstep.io"
+            href="https://gdd.teamstep.io"
             rel="noopener noreferrer"
             className="text-primary-100"
           >
-            Dev Docs
+            About
           </a>
         </li>
         <li>
           <a
             target="_blank"
-            href="https://gdd.teamstep.io"
+            href="https://devdocs.teamstep.io"
             rel="noopener noreferrer"
             className="text-primary-100"
           >
-            GDD
+            Docs
           </a>
         </li>
       </NavbarTwoColumns>
