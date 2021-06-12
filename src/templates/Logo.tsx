@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Config } from '../utils/Config';
+import { config } from '../config/siteData';
 
 type ILogoProps = {
   xl?: boolean;
@@ -12,7 +12,7 @@ const Logo = (props: ILogoProps) => {
 
   return (
     <span className={`text-primary-100 inline-flex items-center ${fontStyle}`}>
-      <svg
+      {/* <svg
         className="text-primary-500 stroke-current mr-1"
         xmlns="http://www.w3.org/2000/svg"
         width={size}
@@ -28,9 +28,17 @@ const Logo = (props: ILogoProps) => {
         <rect x="9" y="8" width="6" height="12" rx="1" />
         <rect x="15" y="4" width="6" height="16" rx="1" />
         <path d="M4 20h14" />
-      </svg>
+      </svg> */}
 
-      {Config.site_name}
+      <img
+        className="mr-2"
+        width={size}
+        height={size}
+        alt="logo"
+        src="/assets/images/logo.png"
+      />
+
+      {config.site_name}
     </span>
   );
 };

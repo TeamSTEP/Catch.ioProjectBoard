@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { CSSProperties } from 'react';
 
 import { BannerLayer } from 'react-scroll-parallax';
+
+const layerStyle: CSSProperties = {
+  height: '100%',
+  objectFit: 'cover',
+};
 
 export default [
   {
     amount: 1,
     expanded: false,
     children: React.createElement('img', {
-      style: { height: 'auto' },
+      style: layerStyle,
       alt: 'layer-img',
       src: '/assets/images/keyart/keyart-layer-1.png',
     }),
@@ -16,7 +21,7 @@ export default [
     amount: 0.9,
     expanded: false,
     children: React.createElement('img', {
-      style: { height: 'auto' },
+      style: layerStyle,
       alt: 'layer-img',
       src: '/assets/images/keyart/keyart-layer-2.png',
     }),
@@ -25,7 +30,7 @@ export default [
     amount: 0.8,
     expanded: false,
     children: React.createElement('img', {
-      style: { height: 'auto' },
+      style: layerStyle,
       alt: 'layer-img',
       src: '/assets/images/keyart/keyart-layer-3.png',
     }),
@@ -34,7 +39,7 @@ export default [
     amount: 0.6,
     expanded: false,
     children: React.createElement('img', {
-      style: { height: 'auto' },
+      style: layerStyle,
       alt: 'layer-img',
       src: '/assets/images/keyart/keyart-layer-4.png',
     }),
@@ -43,7 +48,7 @@ export default [
     amount: 0.6,
     expanded: false,
     children: React.createElement('img', {
-      style: { height: 'auto' },
+      style: layerStyle,
       alt: 'layer-img',
       src: '/assets/images/keyart/keyart-layer-5.png',
     }),
@@ -52,7 +57,7 @@ export default [
     amount: 0.5,
     expanded: false,
     children: React.createElement('img', {
-      style: { height: 'auto' },
+      style: layerStyle,
       alt: 'layer-img',
       src: '/assets/images/keyart/keyart-layer-6.png',
     }),
@@ -61,7 +66,7 @@ export default [
     amount: 0.4,
     expanded: false,
     children: React.createElement('img', {
-      style: { height: 'auto' },
+      style: layerStyle,
       alt: 'layer-img',
       src: '/assets/images/keyart/keyart-layer-7.png',
     }),
@@ -70,7 +75,7 @@ export default [
     amount: 0.05,
     expanded: false,
     children: React.createElement('img', {
-      style: { height: 'auto' },
+      style: layerStyle,
       alt: 'layer-img',
       src: '/assets/images/keyart/keyart-layer-8.png',
     }),
@@ -79,7 +84,7 @@ export default [
     amount: 0.03,
     expanded: false,
     children: React.createElement('img', {
-      style: { height: 'auto' },
+      style: layerStyle,
       alt: 'layer-img',
       src: '/assets/images/keyart/keyart-layer-9.png',
     }),
@@ -88,7 +93,7 @@ export default [
     amount: 0.03,
     expanded: false,
     children: React.createElement('img', {
-      style: { height: 'auto' },
+      style: layerStyle,
       alt: 'layer-img',
       src: '/assets/images/keyart/keyart-layer-10.png',
     }),
@@ -97,7 +102,7 @@ export default [
     amount: 0.03,
     expanded: false,
     children: React.createElement('img', {
-      style: { height: 'auto' },
+      style: layerStyle,
       alt: 'layer-img',
       src: '/assets/images/keyart/keyart-layer-11.png',
     }),
