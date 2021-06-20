@@ -18,11 +18,9 @@ module.exports = {
         },
         extend: {
             fontFamily: {
-                sans: [...defaultTheme.fontFamily.sans],
-                serif: [...defaultTheme.fontFamily.serif],
+                sans: ['Delius', ...defaultTheme.fontFamily.sans],
+                serif: ['Elsie', ...defaultTheme.fontFamily.serif],
                 mono: [...defaultTheme.fontFamily.mono],
-                pixel: ["'Press Start 2P'", 'cursive', 'sans'],
-                cursive: ['Bilbo', 'Charmonman', 'cursive', 'serif'],
             },
             colors: {
                 primary: {
