@@ -11,7 +11,7 @@ const Footer = () => (
   <Background color="bg-primary-900">
     <Section>
       <CenteredFooter
-        logo={<Logo />}
+        logo={<Logo showTitle xl />}
         iconList={(
           <>
             <a

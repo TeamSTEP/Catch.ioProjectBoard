@@ -5,7 +5,7 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Navbar = () => (
-  <div className="fixed z-10 w-screen bg-black bg-opacity-20 backdrop-filter backdrop-blur-lg">
+  <div className="fixed z-10 w-screen bg-black bg-opacity-10 bg-blur-5">
     <Section yPadding="py-3">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
@@ -21,21 +21,21 @@ const Navbar = () => (
         <li>
           <a
             target="_blank"
-            href="https://devdocs.teamstep.io"
+            href="https://gdd.teamstep.io"
             rel="noopener noreferrer"
             className="text-primary-100"
           >
-            Dev Docs
+            About
           </a>
         </li>
         <li>
           <a
             target="_blank"
-            href="https://gdd.teamstep.io"
+            href="https://devdocs.teamstep.io"
             rel="noopener noreferrer"
             className="text-primary-100"
           >
-            GDD
+            Docs
           </a>
         </li>
       </NavbarTwoColumns>

@@ -4,14 +4,15 @@ import { config } from '../config/siteData';
 
 type ILogoProps = {
   xl?: boolean;
+  showTitle?: boolean;
 };
 
 const Logo = (props: ILogoProps) => {
-  const size = props.xl ? '44' : '32';
+  const size = props.xl ? '64' : '32';
   const fontStyle = props.xl ? 'font-semibold text-3xl' : 'font-semibold text-xl';
 
   return (
-    <span className={`text-primary-100 inline-flex items-center ${fontStyle}`}>
+    <span className={`text-primary-100 inline-flex items-center font-cursive ${fontStyle}`}>
       {/* <svg
         className="text-primary-500 stroke-current mr-1"
         xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +39,7 @@ const Logo = (props: ILogoProps) => {
         src="/assets/images/logo.png"
       />
 
-      {config.site_name}
+      {props.showTitle && config.site_name}
     </span>
   );
 };
