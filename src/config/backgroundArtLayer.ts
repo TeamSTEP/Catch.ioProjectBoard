@@ -3,7 +3,8 @@ import React, { CSSProperties } from 'react';
 import { BannerLayer } from 'react-scroll-parallax';
 
 const layerStyle: CSSProperties = {
-  minHeight: '100%',
+  minWidth: '100%',
+  height: '100%',
   objectFit: 'cover',
 };
 
@@ -72,7 +73,7 @@ export default [
     }),
   },
   {
-    amount: 0.05,
+    amount: 0.3,
     expanded: false,
     children: React.createElement('img', {
       style: layerStyle,
@@ -81,7 +82,7 @@ export default [
     }),
   },
   {
-    amount: 0.03,
+    amount: 0.1,
     expanded: false,
     children: React.createElement('img', {
       style: layerStyle,
@@ -90,7 +91,7 @@ export default [
     }),
   },
   {
-    amount: 0.03,
+    amount: 0.1,
     expanded: false,
     children: React.createElement('img', {
       style: layerStyle,
@@ -99,12 +100,30 @@ export default [
     }),
   },
   {
-    amount: 0.03,
+    amount: 0.1,
     expanded: false,
     children: React.createElement('img', {
       style: layerStyle,
       alt: 'layer-img',
       src: '/assets/images/keyart/keyart-layer-11.png',
+    }),
+  },
+  {
+    amount: 0.1,
+    expanded: false,
+    children: React.createElement('img', {
+      style: layerStyle,
+      alt: 'layer-img',
+      src: '/assets/images/keyart/keyart-layer-12.png',
+    }),
+  },
+  {
+    amount: 0.1,
+    expanded: false,
+    children: React.createElement('img', {
+      style: layerStyle,
+      alt: 'layer-img',
+      src: '/assets/images/keyart/keyart-layer-13.png',
     }),
   },
 ] as BannerLayer[];
