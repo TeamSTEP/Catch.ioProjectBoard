@@ -10,6 +10,7 @@
         "export": "next export -o dist",
         "build-prod": "run-s clean build export",
         "clean": "rimraf .next dist",
+        "lint:check": "eslint -f --ext .js,.jsx,.ts,.tsx",
         "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx ."
     },
     "dependencies": {

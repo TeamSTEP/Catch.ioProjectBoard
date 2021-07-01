@@ -1,0 +1,32 @@
+name: PR Checks
+on: [pull_request]
+
+jobs:
+    run_tests:
+        name: Code Style Check
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Use Node.js 16.x
+              uses: actions/setup-node@v2
+              with:
+                  node-version: 16.x
+            - name: lint check
+              run: |
+                  yarn
+                  yarn lint:check
+              working-directory: ./
+    build_code:
+        name: Build Test
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Use Node.js 16.x
+              uses: actions/setup-node@v2
+              with:
+                  node-version: 16.x
+            - name: build dist
+              run: |
+                yarn
+                yarn build-prod
+              working-directory: ./
