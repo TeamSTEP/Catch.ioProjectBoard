@@ -22,7 +22,7 @@ export default [
     amount: 0.9,
     expanded: false,
     children: React.createElement('img', {
-      style: layerStyle,
+      style: { ...layerStyle, objectFit: 'contain' },
       alt: 'layer-img',
       src: '/assets/images/keyart/keyart-layer-2.svg',
     }),
