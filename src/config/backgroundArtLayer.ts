@@ -15,7 +15,7 @@ export default [
     children: React.createElement('img', {
       style: layerStyle,
       alt: 'layer-img',
-      src: '/assets/images/keyart/keyart-layer-1.png',
+      src: '/assets/images/keyart/keyart-layer-1.svg',
     }),
   },
   {
@@ -24,7 +24,7 @@ export default [
     children: React.createElement('img', {
       style: layerStyle,
       alt: 'layer-img',
-      src: '/assets/images/keyart/keyart-layer-2.png',
+      src: '/assets/images/keyart/keyart-layer-2.svg',
     }),
   },
   {
@@ -33,7 +33,7 @@ export default [
     children: React.createElement('img', {
       style: layerStyle,
       alt: 'layer-img',
-      src: '/assets/images/keyart/keyart-layer-3.png',
+      src: '/assets/images/keyart/keyart-layer-3.svg',
     }),
   },
   {
@@ -42,7 +42,7 @@ export default [
     children: React.createElement('img', {
       style: layerStyle,
       alt: 'layer-img',
-      src: '/assets/images/keyart/keyart-layer-4.png',
+      src: '/assets/images/keyart/keyart-layer-4.svg',
     }),
   },
   {
@@ -51,7 +51,7 @@ export default [
     children: React.createElement('img', {
       style: layerStyle,
       alt: 'layer-img',
-      src: '/assets/images/keyart/keyart-layer-5.png',
+      src: '/assets/images/keyart/keyart-layer-5.svg',
     }),
   },
   {
@@ -60,7 +60,7 @@ export default [
     children: React.createElement('img', {
       style: layerStyle,
       alt: 'layer-img',
-      src: '/assets/images/keyart/keyart-layer-6.png',
+      src: '/assets/images/keyart/keyart-layer-6.svg',
     }),
   },
   {
@@ -69,7 +69,7 @@ export default [
     children: React.createElement('img', {
       style: layerStyle,
       alt: 'layer-img',
-      src: '/assets/images/keyart/keyart-layer-7.png',
+      src: '/assets/images/keyart/keyart-layer-7.svg',
     }),
   },
   {
@@ -78,7 +78,25 @@ export default [
     children: React.createElement('img', {
       style: layerStyle,
       alt: 'layer-img',
-      src: '/assets/images/keyart/keyart-layer-8.png',
+      src: '/assets/images/keyart/keyart-layer-8.svg',
+    }),
+  },
+  {
+    amount: 0.2,
+    expanded: false,
+    children: React.createElement('img', {
+      style: layerStyle,
+      alt: 'layer-img',
+      src: '/assets/images/keyart/keyart-layer-9.svg',
+    }),
+  },
+  {
+    amount: 0.2,
+    expanded: false,
+    children: React.createElement('img', {
+      style: layerStyle,
+      alt: 'layer-img',
+      src: '/assets/images/keyart/keyart-layer-10.svg',
     }),
   },
   {
@@ -87,7 +105,7 @@ export default [
     children: React.createElement('img', {
       style: layerStyle,
       alt: 'layer-img',
-      src: '/assets/images/keyart/keyart-layer-9.png',
+      src: '/assets/images/keyart/keyart-layer-11.svg',
     }),
   },
   {
@@ -96,7 +114,7 @@ export default [
     children: React.createElement('img', {
       style: layerStyle,
       alt: 'layer-img',
-      src: '/assets/images/keyart/keyart-layer-10.png',
+      src: '/assets/images/keyart/keyart-layer-12.svg',
     }),
   },
   {
@@ -105,25 +123,16 @@ export default [
     children: React.createElement('img', {
       style: layerStyle,
       alt: 'layer-img',
-      src: '/assets/images/keyart/keyart-layer-11.png',
+      src: '/assets/images/keyart/keyart-layer-13.svg',
     }),
   },
   {
-    amount: 0.1,
+    amount: 0.01,
     expanded: false,
     children: React.createElement('img', {
       style: layerStyle,
       alt: 'layer-img',
-      src: '/assets/images/keyart/keyart-layer-12.png',
-    }),
-  },
-  {
-    amount: 0.1,
-    expanded: false,
-    children: React.createElement('img', {
-      style: layerStyle,
-      alt: 'layer-img',
-      src: '/assets/images/keyart/keyart-layer-13.png',
+      src: '/assets/images/keyart/keyart-layer-14.svg',
     }),
   },
 ] as BannerLayer[];
