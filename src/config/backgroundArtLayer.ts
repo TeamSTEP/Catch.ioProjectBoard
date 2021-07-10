@@ -10,7 +10,7 @@ const layerStyle: CSSProperties = {
 
 export default [
   {
-    amount: 0,
+    amount: 1,
     expanded: false,
     children: React.createElement('img', {
       style: layerStyle,
